@@ -7,7 +7,7 @@ nav_order: 1
 # Open a new case
 
 <!-- prettier-ignore -->
-[![Menu](/assets/images/menu.png)](/assets/images/menu.png){:target="_blank"}
+[![Menu](/assets/images/menu-4-case.png)](/assets/images/menu-4-case.png){:target="_blank"}
 
 This the case manager menu bar and the first icon "Case" is to open the new case screen.
 
@@ -23,10 +23,10 @@ Select the workflow which is required for the case type you are opening from the
 1. The workflow drop list displays the activated workflows available for new cases. Select the required workflow to apply to the new case.
 2. The new case screen is divided into three section.
 
-   - Case Summary - Enter the date case is opened, opened by, the introducer of the case, the intermediary or organisation if any.
+   - **Case Summary** - Enter the date case is opened, opened by, the introducer of the case, the intermediary or organisation if any.
      Also enter the case manager, team leader and assistant to the case manager.
-   - Case Contact Summary - In the case summary section, enter the case contact and their details and credentials.
-   - Retainer Summary - In this section there is drop list to allow you to select if the case retainer is quoted on an hourly charge basis or fixed rate.
+   - **Case Contact Summary** - In the case summary section, enter the case contact and their details and credentials.
+   - **Retainer Summary** - In this section there is drop list to allow you to select if the case retainer is quoted on an hourly charge basis or fixed rate.
      Enter duration from, which can be any text, eg, 1 day, 2 weeks, 9 months and enter duration to, eg, 4 days, 6 weeks, or 12 months to describe the duration the retainer will take to complete.
      An example may be 2 months and 4 months, to describe a retainer duration from 2 to 4 months.
 

@@ -1,7 +1,9 @@
 ---
-title: Home
+title: Welcome
 nav_order: 0
 ---
+
+# Welcome to miroshar case management system
 
 Manage all your administrative activities involved in working on a case, from recording time engaged in preparing documents and forms to making and receiving calls.
 

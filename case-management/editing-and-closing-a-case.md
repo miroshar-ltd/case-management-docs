@@ -12,10 +12,10 @@ The admin area can be accessed by clicking on the user icon which produces a men
 After selecting the dashboard, the admin area window will open which has the controls and setup menu for the workspace configuration.
 
 <!-- prettier-ignore -->
-[![Menu](/assets/images/user-icon.png)](/assets/images/new-case.png){:target="_blank"}
+[![New Case](/assets/images/user-icon.png)](/assets/images/user-icon.png){:target="_blank"}
 
 <!-- prettier-ignore -->
-[![Menu](/assets/images/admin-cases.png)](/assets/images/admin-cases.png){:target="_blank"}
+[![Admin Menu For Cases](/assets/images/admin-cases.png)](/assets/images/admin-cases.png){:target="_blank"}
 
 1. Click on the cases icon on the left sidebar menu and the cases screen will open showing a list of the cases which can be sorted by name or case number.
    Clicking the pencil / edit icon opens the edit case window and allows the admin to edit the case details.

@@ -1,0 +1,11 @@
+@media (min-width: 50rem) {
+  .side-bar .site-header .site-title {
+    font-size: 1rem !important;
+  }
+}
+
+.site-nav .nav-list .nav-list-item .nav-list-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
