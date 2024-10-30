@@ -1,0 +1,29 @@
+{
+  "name": "miroshar-case-management-documentation",
+  "version": "1.0.0",
+  "description": "miroshar case management documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscm-docs/.github.git"
+  },
+  "keywords": [
+    "miroshar",
+    "case",
+    "management",
+    "help",
+    "documentation"
+  ],
+  "author": "Sharaz Khan, James Gates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mscm-docs/.github/issues"
+  },
+  "homepage": "https://github.com/mscm-docs/.github#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

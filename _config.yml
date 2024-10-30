@@ -1,0 +1,30 @@
+title: mscm docs
+description: Helps management of day to day administrative activities involved in maintaining case contact and information data, diary, tasks, communications and documents centrally.
+theme: just-the-docs
+
+url: https://mscm-docs.github.io/
+
+aux_links:
+  'on GitHub': https://github.com/mscm-docs/.github
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: '' # an empty string here means all files in the project
+      type: 'pages'
+    values:
+      layout: 'default'
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
+exclude:
+  - .git/
+  - .gitignore
+  - .jekyll-cache/
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
