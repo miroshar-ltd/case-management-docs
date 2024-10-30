@@ -5,3 +5,5 @@ nav_order: 2
 ---
 
 # Accounts ledger view
+
+---

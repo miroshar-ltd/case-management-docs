@@ -5,3 +5,5 @@ nav_order: 5
 ---
 
 # SMS templates
+
+---

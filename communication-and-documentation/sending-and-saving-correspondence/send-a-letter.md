@@ -6,6 +6,8 @@ nav_order: 1
 
 # Send a letter & save with attachments
 
+---
+
 <!-- prettier-ignore -->
 [![Menu For Letter](/assets/images/menu-4-letter.png)](/assets/images/menu-4-letter.png){:target="_blank"}
 

@@ -5,3 +5,5 @@ nav_order: 3
 ---
 
 # VAT rates
+
+---

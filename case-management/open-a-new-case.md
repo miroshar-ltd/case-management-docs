@@ -6,6 +6,8 @@ nav_order: 1
 
 # Open a new case
 
+---
+
 <!-- prettier-ignore -->
 [![Menu](/assets/images/menu-4-case.png)](/assets/images/menu-4-case.png){:target="_blank"}
 

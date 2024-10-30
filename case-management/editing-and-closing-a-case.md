@@ -6,6 +6,8 @@ nav_order: 2
 
 # Editing & closing a case
 
+---
+
 The closing of a case is available to the user with admin rights for the workspace.
 The admin area can be accessed by clicking on the user icon which produces a menu to select the dashboard.
 

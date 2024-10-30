@@ -13,9 +13,6 @@ defaults:
     values:
       layout: 'default'
 
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-
 exclude:
   - .git/
   - .gitignore
@@ -99,6 +96,25 @@ gh_edit_branch: 'main' # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: 'tree' # "tree" or "edit" if you want the user to jump into the editor immediately
 
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: light
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
 #ga_tracking: "UA-1234567-89,G-1AB234CDE5"

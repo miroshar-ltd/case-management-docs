@@ -6,6 +6,8 @@ nav_order: 3
 
 # Working on a case
 
+---
+
 <!-- prettier-ignore -->
 [![Case Ref Search](/assets/images/case-ref-search.png)](/assets/images/case-ref-search.png){:target="_blank"}
 
