@@ -5,12 +5,9 @@ theme: just-the-docs
 url: https://mscm-docs.github.io/
 
 aux_links:
-  'on GitHub': https://github.com/mscm-docs/.github
+  'on GitHub': https://github.com/mscm-docs/mscm-docs.github.io
 
 permalink: pretty
-
-plugins:
-  - jekyll-default-layout
 
 defaults:
   - scope:
