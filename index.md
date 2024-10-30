@@ -22,7 +22,7 @@ Generate global reports for insights into system cases, to assess user activitie
    3. [Working on a case](/case-management/working-on-a-case/)
    4. [Progress the workflow](/case-management/progress-the-workflow/)
 
-2. [**Communication-and-documentation**](/communication-and-documentation/)
+2. [**Communication & Documentation**](/communication-and-documentation/)
 
    1. [Sending & Saving Correspondence](/communication-and-documentation/sending-and-saving-correspondence/)
 
