@@ -1,6 +1,6 @@
 ---
 title: Transaction slips & postings
-parent: Time & Activity Tracking
+parent: Financial Management
 nav_order: 2
 ---
 

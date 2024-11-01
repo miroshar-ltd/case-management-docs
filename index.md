@@ -62,7 +62,7 @@ nav_order: 0
 4. [**Time & Activity Tracking**](/time-and-activity-tracking/)
 
    1. [Record time](/time-and-activity-tracking/record-time/)
-   2. [Transaction slips & postings](/time-and-activity-tracking/transaction-slips-and-postings/)
+   2. [Make History](/time-and-activity-tracking/make-history/)
 
 5. [**Mail & In Tray Management**](/mail-and-in-tray/)
 
@@ -80,12 +80,11 @@ nav_order: 0
 
    1. [Accounts & Ledger](/financial/accounts-and-ledger/)
 
-      - [Transaction slips & postings](/financial/accounts-and-ledger/transaction-slips-and-postings/)
       - [Accounts ledger view](/financial/accounts-and-ledger/accounts-ledger-view/)
       - [VAT rates](/financial/accounts-and-ledger/vat-rates/)
       - [Setting Currency](/financial/accounts-and-ledger/setting-currency/)
 
-   2. [Reports](/financial/reports/)
+   2. [Transaction slips & postings](/financial/transaction-slips-and-postings/)
 
 7. [**Setup & Configuration**](/setup-and-configuration/)
 
@@ -99,4 +98,16 @@ nav_order: 0
       - [Email settings & SMTP](/setup-and-configuration/email-and-communication/email-settings-and-smtp/)
       - [Setup company credentials](/setup-and-configuration/email-and-communication/setup-company-credentials/)
 
-8. [**CHANGELOG**](/changelog/)
+8. [**Reports**](/reports/)
+
+   1. [Summary](/reports/summary/)
+
+      - [Case List](/reports/summary/case-list/)
+      - [Conflict Contacts](/reports/summary/conflict-contacts/)
+      - [Workflow Step Progression](/reports/summary/workflow-step-progression/)
+      - [History Actions](/reports/summary/history-actions/)
+      - [Task List](/reports/summary/task-list/)
+
+9. [**LICENSE**](/licnese/)
+
+10. [**CHANGELOG**](/changelog/)
