@@ -5,5 +5,3 @@ nav_order: 2
 ---
 
 # Transaction slips & postings
-
----

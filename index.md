@@ -86,6 +86,23 @@ nav_order: 0
 
    2. [Transaction slips & postings](/financial/transaction-slips-and-postings/)
 
+      - [Bank Payment - Client](/financial/transaction-slips-and-postings/bank-payment-client/)
+      - [Bank Payment - Nominal](/financial/transaction-slips-and-postings/bank-payment-nominal/)
+      - [Bank Payment - Office](/financial/transaction-slips-and-postings/bank-payment-office/)
+      - [Bank Receipt - Client](/financial/transaction-slips-and-postings/bank-receipt-client/)
+      - [Bank Receipt - Deposit](/financial/transaction-slips-and-postings/bank-receipt-deposit/)
+      - [Bank Receipt - Nominal](/financial/transaction-slips-and-postings/bank-receipt-nominal/)
+      - [Interest](/financial/transaction-slips-and-postings/index/)
+      - [Purchase Invoice - Office](/financial/transaction-slips-and-postings/purchase-invoice-office/)
+      - [Purchase Payment - Office](/financial/transaction-slips-and-postings/purchase-payment-office/)
+      - [Sales Credit / Credit Note](/financial/transaction-slips-and-postings/sales-credit-credit-note/)
+      - [Sales Invoice / Bill](/financial/transaction-slips-and-postings/sales-invoice-bill/)
+      - [Transfer Client to Client](/financial/transaction-slips-and-postings/transfer-client-to-client/)
+      - [Transfer Client to Office](/financial/transaction-slips-and-postings/transfer-client-to-office/)
+      - [Transfer Office to Client](/financial/transaction-slips-and-postings/transfer-office-to-client/)
+      - [Write Off](/financial/transaction-slips-and-postings/write-off/)
+      - [Write Off Bill](/financial/transaction-slips-and-postings/write-off-bill/)
+
 7. [**Setup & Configuration**](/setup-and-configuration/)
 
    1. [User & Role Setup](/setup-and-configuration/user-and-role/)
