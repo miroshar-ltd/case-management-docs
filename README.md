@@ -54,36 +54,36 @@ Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key inst
 
 ## Publishing your site on GitHub Pages
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+1. If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+   ```yaml
+   title: YOUR TITLE
+   description: YOUR DESCRIPTION
+   theme: just-the-docs
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+   url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+   aux_links: # remove if you don't want this link to appear on your pages
+     Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
+   ```
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+2. Push your updated `_config.yml` to your site on GitHub.
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+3. In your newly created repo on GitHub:
+   - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
+   - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
 
 ## Building and previewing your site locally
 
 Assuming [Jekyll] and [Bundler] are installed on your computer:
 
-1.  Change your working directory to the root directory of your site.
+1. Change your working directory to the root directory of your site.
 
-2.  Run `bundle install`.
+2. Run `bundle install`.
 
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+3. Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
 
-    The built site is stored in the directory `_site`.
+   The built site is stored in the directory `_site`.
 
 ## Publishing your built site on a different platform
 
@@ -101,55 +101,55 @@ You might want to maintain your docs in an existing project repo. Instead of cre
 
 ### Copy the template files
 
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
+1. Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
 
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
+2. Create a `docs` directory at your project root and copy all remaining template files into this directory.
 
 ### Modify the GitHub Actions workflow
 
 The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
 
-1.  Set the default `working-directory` param for the build job.
+1. Set the default `working-directory` param for the build job.
 
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
+   ```yaml
+   build:
+     runs-on: ubuntu-latest
+     defaults:
+       run:
+         working-directory: docs
+   ```
 
-2.  Set the `working-directory` param for the Setup Ruby step.
+2. Set the `working-directory` param for the Setup Ruby step.
 
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
+   ```yaml
+   - name: Setup Ruby
+       uses: ruby/setup-ruby@v1
+       with:
+         ruby-version: '3.1'
+         bundler-cache: true
+         cache-version: 0
+         working-directory: '${{ github.workspace }}/docs'
+   ```
 
-3.  Set the path param for the Upload artifact step:
+3. Set the path param for the Upload artifact step:
 
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "docs/_site/"
-    ```
+   ```yaml
+   - name: Upload artifact
+       uses: actions/upload-pages-artifact@v1
+       with:
+         path: "docs/_site/"
+   ```
 
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
+4. Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
 
-    ```yaml
-    on:
-      push:
-        branches:
-          - 'main'
-        paths:
-          - 'docs/**'
-    ```
+   ```yaml
+   on:
+     push:
+       branches:
+         - 'main'
+       paths:
+         - 'docs/**'
+   ```
 
 ## Licensing and Attribution
 
