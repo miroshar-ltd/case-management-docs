@@ -92,7 +92,7 @@ nav_order: 0
       - [Bank Receipt - Client](/financial/transaction-slips-and-postings/bank-receipt-client/)
       - [Bank Receipt - Deposit](/financial/transaction-slips-and-postings/bank-receipt-deposit/)
       - [Bank Receipt - Nominal](/financial/transaction-slips-and-postings/bank-receipt-nominal/)
-      - [Interest](/financial/transaction-slips-and-postings/index/)
+      - [Interest](/financial/transaction-slips-and-postings/interest/)
       - [Purchase Invoice - Office](/financial/transaction-slips-and-postings/purchase-invoice-office/)
       - [Purchase Payment - Office](/financial/transaction-slips-and-postings/purchase-payment-office/)
       - [Sales Credit / Credit Note](/financial/transaction-slips-and-postings/sales-credit-credit-note/)
