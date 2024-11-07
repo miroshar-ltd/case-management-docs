@@ -44,6 +44,7 @@ nav_order: 0
       - [Email templates](/communication-and-documentation/templates/email/)
       - [SMS templates](/communication-and-documentation/templates/sms/)
       - [Transaction templates](/communication-and-documentation/templates/transaction/)
+      - [New template from existing](/communication-and-documentation/templates/new-from-existing/)
 
 3. [**Task & Workflow Management**](/task-and-workflow/)
 
